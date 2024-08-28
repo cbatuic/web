@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML5 - Example Form 1</title>
+</head>
+<body>
+    <h1>Form Demo</h1>
+
+    <form action="">
+
+        <fieldset>
+            <legend>New Input Forms</legend>
+            <p>
+                <label for="">Time</label>
+                <input type="time" />
+            </p>
+
+            <p>
+                <label for="">DateTime</label>
+                <input type="datetime-local">
+            </p>
+
+            <p>
+                <label for="">Week</label>
+                <input type="week">
+            </p>
+            
+            <p>
+                <label for="">Color</label>
+                <input type="color">
+            </p>            
+
+            <p>
+                <label for="">Number</label>
+                <input  type="number"
+                        max="10"
+                        min="0"
+                >
+            </p>
+
+            <p>
+                <label for="">Range</label>
+                <input  type="range"
+                        max="255"
+                        min="0"
+                        value="200"
+                />
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Text input</legend>
+            <p>
+                <label for="txt1">Text box</label>
+                <input  type="text" 
+                        id="txt1"
+                        name="txt1" 
+                        value="text here" />
+            </p>
+
+            <p>
+                <label for="pass1">Password</label>
+                <input  type="password" 
+                        id="pass2" 
+                        value="1234" />
+            </p>     
+
+            <p>
+                <label for="txt2">Text Area</label>
+                <textarea   id="txt2"
+                            rows="10"
+                            cols="40">Your text here
+                </textarea>
+            </p>            
+        </fieldset>
+
+        <fieldset>
+            <legend>Selecting elements</legend>
+            <p>
+                <label for="sel1">Select List</label>
+                <select name="sel1" id="sel1">
+                    <option value="1">one</option>
+                    <option value="2">two</option>
+                    <option value="3">three</option>
+                </select>
+            </p>
+            <p>
+                <label for="chk1">Check boxes</label>
+                <input type="checkbox"
+                        id="chk1"
+                        value="GreenEggs" />Green Eggs
+                <input type="checkbox"
+                        id="chk2"
+                        value="Ham" checked/>Ham                        
+            </p>
+            <p>
+                <label for="rad1">Radio Buttons</label>
+                <input  type="radio"
+                        name="rad1"
+                        id="radsmall"
+                        value="small"/>small
+                <input  type="radio"
+                        name="rad1"
+                        id="radmedium"
+                        value="medium"/>medium  
+                <input  type="radio"
+                        name="rad1"
+                        id="radlarge"
+                        value="large"/>large                                               
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Buttons</legend>
+            <p>
+                <button id="btn1">standard button</button>
+
+                <button id="btnLogin">standard button</button>
+
+                <input  type="button"
+                        id="btn1"
+                        value="input button"/>
+
+                <input type="reset">
+
+                <input type="submit">
+            </p>            
+        </fieldset>
+        
+
+
+    </form>
+</body>
+</html>
